@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.col {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+p {
+    margin-top: 1.2rem;
+}
+
+i {
+    text-decoration: none;
+}
+
+.row {
+    font-family: 'Raleway', sans-serif;
+}
+.btn{
+    background-color: #dfc8a5;
+    color: #8c140b;
+    border: none;
+}
+.btn:hover{
+    background-color: #8c140b;
+    color: #dfc8a5;
+    border: none;
+}

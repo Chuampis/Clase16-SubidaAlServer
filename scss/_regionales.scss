@@ -1,0 +1,43 @@
+/* Estilo para Productos - Regionales */@at-root
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* OPERACIONES SASS */
+
+$ancho: 720px;
+$crema: #dfc8a5;
+$bordo: #8c140b;
+h2{
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.box_uno {
+ background-color: $crema;
+ width: $ancho/2;
+ color:$bordo;
+}
+
+.box_dos {
+ background-color: $bordo;
+ width: ($ancho/4)-50;
+ color:$crema;
+}
+
+.row.regionales{
+    justify-content: center;
+}
+@mixin title-h1 {
+    background-color: $crema;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: underline;
+    color:#8c140b;
+    } 
+    

@@ -1,0 +1,28 @@
+{
+  "name": "clase16_subida-server",
+  "version": "1.0.0",
+  "description": "California Zapatero",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:css"
+  },
+  "keywords": [
+    "compostura",
+    "calzado",
+    "mates",
+    "regionales",
+    "cuchillos",
+    "alpargatas",
+    "villa ballester"
+  ],
+  "author": "Juan Pablo Sauzet",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chuampis/Clase15-GitHub.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Chuampis/Clase15-GitHub/issues"
+  },
+  "homepage": "https://github.com/Chuampis/Clase15-GitHub#readme"
+}

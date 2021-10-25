@@ -1,0 +1,45 @@
+/* ESTILOS PARA SECCION CONTACTO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form__contact{
+    margin-top: 3rem;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form.row{
+    padding-top: 0.5rem;
+}
+
+.form__contact label, .form__contact input, .form__contact textarea{
+    display:inline;
+    width: 100%;
+}
+
+.form__contact label{
+    font-weight: bold;
+}
+
+.form__contact input:not([type='submit']), .form__contact textarea{
+    border:none;
+    border-bottom: 2px solid #8c140b;
+    margin-bottom: 10px;
+    outline: none;
+}
+input[type='submit']{
+    border: none;
+    border-radius: 4rem;
+    background-color: #dfc8a5;
+    color: #8c140b;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,54 @@
+/* Estilos para pagina de Servicios */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    background-color: #dfc8a5;
+    height: -10px;
+    display:inline-block;
+    width: 400px;
+}
+
+.card__container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card__img{
+    width: 100%;
+	height: 100%;
+	margin-right: 30px;
+}
+
+.card__title{
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+}
+
+.card__text{
+    font-size: 1rem;
+    font-style: italic;
+    color: black;
+}
+
+.btn--primary{
+    display: inline-block;
+    vertical-align: middle;
+    background-color: white;
+    color: #8c140b;
+    height: 2.5rem;
+    text-decoration: none;
+    border-radius: 0.4rem;
+    border: black solid;
+    font-style: normal;
+}
+
+.btn--primary:hover {
+    scale: 1.1;
+    transition: 0.5s;
+    color: #8c140b;
+}
